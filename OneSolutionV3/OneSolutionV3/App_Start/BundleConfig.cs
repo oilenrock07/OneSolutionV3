@@ -9,23 +9,28 @@ namespace OneSolutionV3
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jquery.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
-            // Use the development version of Modernizr to develop with and learn from. Then, when you're
-            // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+            bundles.Add(new ScriptBundle("~/bundles/site").Include(
+                        "~/Scripts/bootstrap.min.js",
+                        "~/Scripts/app.config.js",
+                        "~/Scripts/demo.min.js",
+                        "~/Scripts/app.min.js",
+                        "~/Scripts/jarvis.widget.min.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+            bundles.Add(new ScriptBundle("~/bundles/notification").Include(
+            "~/Scripts/SmartNotification.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/bootstrap.min.css",
+                      "~/Content/font-awesome.min.css",
+                      "~/Content/smartadmin-production.min.css",
+                      "~/Content/demo.min.css",
+                      "~/Content/smartadmin-skins.min.css",
+                      "~/Content/google.font.css"));
         }
     }
 }
