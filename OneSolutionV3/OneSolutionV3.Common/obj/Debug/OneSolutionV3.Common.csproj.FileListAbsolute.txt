@@ -1,0 +1,10 @@
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\bin\Debug\OneSolutionV3.Common.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\bin\Debug\OneSolutionV3.Common.pdb
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\bin\Debug\LinqToExcel.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\bin\Debug\Remotion.Data.Linq.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\bin\Debug\Remotion.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\bin\Debug\Remotion.Interfaces.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\bin\Debug\log4net.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\bin\Debug\LinqToExcel.xml
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\obj\Debug\OneSolutionV3.Common.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Common\obj\Debug\OneSolutionV3.Common.pdb

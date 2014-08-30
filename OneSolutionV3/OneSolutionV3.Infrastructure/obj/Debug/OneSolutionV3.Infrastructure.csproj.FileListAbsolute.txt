@@ -1,0 +1,8 @@
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Infrastructure\bin\Debug\OneSolutionV3.Infrastructure.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Infrastructure\bin\Debug\OneSolutionV3.Infrastructure.pdb
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Infrastructure\bin\Debug\EntityFramework.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Infrastructure\bin\Debug\OneSolutionV3.Domain.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Infrastructure\bin\Debug\OneSolutionV3.Domain.pdb
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Infrastructure\obj\Debug\OneSolutionV3.Infrastructure.csprojResolveAssemblyReference.cache
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Infrastructure\obj\Debug\OneSolutionV3.Infrastructure.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Infrastructure\obj\Debug\OneSolutionV3.Infrastructure.pdb

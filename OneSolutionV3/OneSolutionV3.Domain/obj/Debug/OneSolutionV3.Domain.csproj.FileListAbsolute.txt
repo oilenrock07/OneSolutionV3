@@ -1,0 +1,10 @@
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\bin\Debug\OneSolutionV3.Domain.dll.config
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\bin\Debug\OneSolutionV3.Domain.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\bin\Debug\OneSolutionV3.Domain.pdb
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\bin\Debug\EntityFramework.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\bin\Debug\EntityFramework.xml
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\obj\Debug\OneSolutionV3.Domain.csprojResolveAssemblyReference.cache
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\obj\Debug\OneSolutionV3.Domain.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Domain\obj\Debug\OneSolutionV3.Domain.pdb

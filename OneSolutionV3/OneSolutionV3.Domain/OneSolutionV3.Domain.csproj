@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{080D15D1-963F-4380-909B-C3E2627F5E16}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OneSolutionV3.Domain</RootNamespace>
+    <AssemblyName>OneSolutionV3.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DTO\Account\AccountAmountViewModel.cs" />
+    <Compile Include="DTO\Account\AccountDisplayViewModel.cs" />
+    <Compile Include="DTO\Account\AccountMainViewModel.cs" />
+    <Compile Include="DTO\Account\AccountViewModel.cs" />
+    <Compile Include="DTO\Activity\ActivityViewModel.cs" />
+    <Compile Include="DTO\Bank\BankAccountsViewModel.cs" />
+    <Compile Include="DTO\Bank\BankNamesViewModel.cs" />
+    <Compile Include="DTO\Bank\BankViewModel.cs" />
+    <Compile Include="DTO\CategoryStructure\CategoryStructureViewModel.cs" />
+    <Compile Include="DTO\Category\CategoryViewModel.cs" />
+    <Compile Include="DTO\Contact\ContactNamesViewModel.cs" />
+    <Compile Include="DTO\Contact\ContactViewModel.cs" />
+    <Compile Include="DTO\Debt\DebtCreateViewModel.cs" />
+    <Compile Include="DTO\Debt\DebtPaymentViewModel.cs" />
+    <Compile Include="DTO\Debt\DebtViewModel.cs" />
+    <Compile Include="DTO\FundTransfer\FundTransferViewModel.cs" />
+    <Compile Include="DTO\MoneyCount\MoneyCountDisplayViewModel.cs" />
+    <Compile Include="DTO\RecursiveTransaction\RecursiveDetail.cs" />
+    <Compile Include="DTO\RecursiveTransaction\RecursiveTransactionViewModel.cs" />
+    <Compile Include="DTO\Transaction\AmountAndDate.cs" />
+    <Compile Include="DTO\Transaction\ReportTransactionViewModel.cs" />
+    <Compile Include="DTO\Transaction\TransactionUpdate.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\Bank.cs" />
+    <Compile Include="Models\BaseTransaction.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\CategoryStructure.cs" />
+    <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\Debt.cs" />
+    <Compile Include="Models\DebtPayment.cs" />
+    <Compile Include="Models\FundTransfer.cs" />
+    <Compile Include="Models\MoneyCount.cs" />
+    <Compile Include="Models\OneSolutionContext.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\RecursiveTransaction.cs" />
+    <Compile Include="Models\RecursiveTransactionDetail.cs" />
+    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

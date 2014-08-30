@@ -1,0 +1,5 @@
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Test\bin\Debug\OneSolutionV3.Test.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Test\bin\Debug\OneSolutionV3.Test.pdb
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Test\obj\Debug\OneSolutionV3.Test.csprojResolveAssemblyReference.cache
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Test\obj\Debug\OneSolutionV3.Test.dll
+C:\projects\OneSolutionV3\OneSolutionV3\OneSolutionV3.Test\obj\Debug\OneSolutionV3.Test.pdb

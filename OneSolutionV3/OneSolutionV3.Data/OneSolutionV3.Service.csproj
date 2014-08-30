@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00CBBF39-B243-4421-85C4-3BCA976E02FF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OneSolutionV3.Data</RootNamespace>
+    <AssemblyName>OneSolutionV3.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\..\..\Users\Cawi\Desktop\OneSolution\OneSolution.Data\bin\Debug\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\OneSolutionV3\bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface\IAccountRepository.cs" />
+    <Compile Include="Interface\IActivityRepository.cs" />
+    <Compile Include="Interface\IBankRepository.cs" />
+    <Compile Include="Interface\ICategoryRepository.cs" />
+    <Compile Include="Interface\ICategoryStructureRepository.cs" />
+    <Compile Include="Interface\IContactRepository.cs" />
+    <Compile Include="Interface\IDebtPaymentRepository.cs" />
+    <Compile Include="Interface\IDebtRepository.cs" />
+    <Compile Include="Interface\IFundTransferRepository.cs" />
+    <Compile Include="Interface\IMoneyCountRepository.cs" />
+    <Compile Include="Interface\IRecursiveTransactionDetailRepository.cs" />
+    <Compile Include="Interface\IRecursiveTransactionRepository.cs" />
+    <Compile Include="Interface\ITransactionRepository.cs" />
+    <Compile Include="Interface\IUserRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\AccountRepository.cs" />
+    <Compile Include="Repository\ActivityRepository.cs" />
+    <Compile Include="Repository\BankRepository.cs" />
+    <Compile Include="Repository\CategoryRepository.cs" />
+    <Compile Include="Repository\CategoryStructureRepository.cs" />
+    <Compile Include="Repository\ContactRepository.cs" />
+    <Compile Include="Repository\DebtPaymentRepository.cs" />
+    <Compile Include="Repository\DebtRepository.cs" />
+    <Compile Include="Repository\FundTransferRepository.cs" />
+    <Compile Include="Repository\MoneyCountRepository.cs" />
+    <Compile Include="Repository\RecursiveTransactionDetailRepository.cs" />
+    <Compile Include="Repository\RecursiveTranscationRepository.cs" />
+    <Compile Include="Repository\TransactionRepository.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Seeder\CategorySeeder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OneSolutionV3.Common\OneSolutionV3.Common.csproj">
+      <Project>{727588e2-18d3-4731-b065-9283727b4537}</Project>
+      <Name>OneSolutionV3.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OneSolutionV3.Domain\OneSolutionV3.Domain.csproj">
+      <Project>{080d15d1-963f-4380-909b-c3e2627f5e16}</Project>
+      <Name>OneSolutionV3.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OneSolutionV3.Infrastructure\OneSolutionV3.Infrastructure.csproj">
+      <Project>{0ac82412-fe66-47a0-af81-99a9a3c050b4}</Project>
+      <Name>OneSolutionV3.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
